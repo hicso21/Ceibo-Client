@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10e650c1.css",
+    "main.js": "/static/js/main.e0e1d5ee.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/perritoLogo.png": "/static/media/perritoLogo.df206049f9a274c21a09.png",
+    "static/media/logoCeibo.png": "/static/media/logoCeibo.36ee71dba2712bf7d216.png",
+    "static/media/gatitoLogo.png": "/static/media/gatitoLogo.70419203bc426f1870a9.png",
+    "index.html": "/index.html",
+    "main.10e650c1.css.map": "/static/css/main.10e650c1.css.map",
+    "main.e0e1d5ee.js.map": "/static/js/main.e0e1d5ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10e650c1.css",
+    "static/js/main.e0e1d5ee.js"
+  ]
+}

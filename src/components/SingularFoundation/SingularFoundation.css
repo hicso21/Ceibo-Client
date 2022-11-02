@@ -1,0 +1,63 @@
+.mainContainerFoundation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: row;
+  margin-top: -30px;
+}
+
+.imgContainerFound {
+  width: 350px;
+}
+
+.mainFound {
+  width: 600px;
+}
+
+#foundPhoto {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.mainCardFound {
+  border-radius: 5px;
+}
+
+.petsContainer {
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .mainContainerFoundation {
+    display: flex;
+    padding: 15px 0;
+    height: 90%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -130px;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: -80px;
+  }
+
+  .imgContainerFound {
+    width: 100%;
+    margin:-65px;
+    margin-top: 0
+  }
+
+  #foundPhoto {
+    width: 95%;
+    object-fit: scale-down;
+  }
+
+  .mainFound {
+    width: 100%;
+  }
+}

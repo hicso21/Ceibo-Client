@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+#root {
+  background-image: url("../src/assets/fondo-huellas\ -\ Edited.png");
+  background-size: cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#root {
+  background-color: #c0dce4;
+  width: 100%;
+}
+
+#search:focus {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+#petPhoto {
+  border-radius: 6%;
+  box-shadow: 15px 6px 26px 0px;
+  max-width: 100%;
+}
+
+#genero {
+  /* padding-right: 125px; */
+  padding-left: 65%;
+}
+
+#tamanio {
+  padding-left: 0px;
+}
+
+#ul {
+  margin: 0px;
+}
+
+#icon {
+  width: 10%;
+  margin-right: 0px;
+}
+
+#description {
+  width: 90%;
+}
+
+@media (max-width: 400px) {
+  #searchDisplay {
+    width: 190px;
+  }
+}
+
+@media (min-width: 401px) and (max-width:500px) {
+  #searchDisplay {
+    width: 230px;
+  }
+}
+
+.slider {
+  margin-left: 100px;
+  width: 20%;
+}
+
+#imgPet {
+  max-width: 500px;
+  max-height: 1000px;
+}
+
+.imageList::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.imageList::-webkit-scrollbar:horizontal {
+  width:10px;
+}
+
+.imageList::-webkit-scrollbar-button:increment,.imageList::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.imageList::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.imageList::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.imageList::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
